@@ -11,5 +11,13 @@ module.exports = {
   plugins: [
   ],
   // add your custom rules here
-  rules: {}
+  rules: {
+    camelcase: 0,
+    'vue/html-self-closing': 0,
+    'vue/require-default-prop': 0,
+    'vue/html-closing-bracket-newline': ['error', {
+      singleline: 'never',
+      multiline: 'never'
+    }]
+  }
 }

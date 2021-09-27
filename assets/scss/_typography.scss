@@ -1,0 +1,55 @@
+:root {
+  --title-font: 'Yesteryear', cursive;
+  --reg-font: 'Trebuchet MS';
+  --font-size-heading1: 3.052rem;
+  --font-size-heading2: 2.441rem;
+  --font-size-xxl: 1.953rem;
+  --font-size-xl: 1.563rem;
+  --font-size-lg: 1.25rem;
+  --font-size-md: 1rem;
+  --font-size-sm: 0.8rem;
+}
+
+h1 {
+  font-family: 'Yesteryear', cursive;
+  font-size: var(--font-size-heading1);
+}
+
+h2 {
+  font-family: 'Yesteryear', cursive;
+  font-size: var(--font-size-heading2);
+}
+
+h3 {
+  font-family: 'Yesteryear', cursive;
+  font-size: var(--font-size-xxl);
+}
+
+h4 {
+  font-size: var(--font-size-xl);
+}
+
+h5 {
+  font-size: var(--font-size-lg);
+}
+
+.font-size-md { font-size: var(--font-size-md); }
+.font-size-sm { font-size: var(--font-size-sm); }
+
+.reg-font { font-family: var(--reg-font); }
+
+.drop-shadow {
+  text-shadow:
+    4px 7px 0 #000,
+    0   -2px 0 #000,
+    2px -2px 0 #000,
+    2px  0   0 #000,
+    2px  2px 0 #000,
+    0    2px 0 #000,
+    -2px  2px 0 #000,
+    -2px  0   0 #000;
+}
+
+.upper {
+  text-transform: uppercase;
+}

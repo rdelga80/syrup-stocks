@@ -6,13 +6,15 @@
     "lib": [
       "ESNext",
       "ESNext.AsyncIterable",
-      "DOM"
+      "DOM",
+      "DOM.iterable"
     ],
     "esModuleInterop": true,
     "allowJs": true,
     "sourceMap": true,
     "strict": true,
     "noEmit": true,
+    "noImplicitAny": false,
     "experimentalDecorators": true,
     "baseUrl": ".",
     "paths": {
@@ -25,6 +27,7 @@
     },
     "types": [
       "@nuxt/types",
+      "@types/lodash",
       "@types/node"
     ]
   },

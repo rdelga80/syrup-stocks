@@ -1,0 +1,31 @@
+@use 'colors';
+@use 'typography';
+
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+
+:root {
+  --purple: rgb(184, 22, 199);
+}
+
+html {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(45deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 0.6629026610644257) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+html,
+body {
+  min-height: 100%;
+  width: 100%;
+}
+
+body {
+  font: 1.3rem Inconsolata, monospace;
+  font-size: 16px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
