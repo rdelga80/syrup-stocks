@@ -18,6 +18,7 @@ import {
   FormattedStockData
 } from '@/types/data'
 import { State } from '@/store/index'
+import { downloadCsv } from '~/assets/js/utilities'
 
 export default defineComponent({
   name: 'HomePage',
@@ -118,6 +119,7 @@ export default defineComponent({
     })
 
     return {
+      downloadCsv: () => downloadCsv(getters.getStockDataFormatted),
       fetchCleanStockData,
       isInitialStockDataLoad: computed(() => state.loading.isInitialStockDataLoad),
       loadMoreRecords,
@@ -159,7 +161,7 @@ export default defineComponent({
         Reset
       </SButton>
 
-      <SButton block>
+      <SButton block @click="downloadCsv">
         Download
       </SButton>
     </section>
