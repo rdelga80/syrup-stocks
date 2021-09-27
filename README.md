@@ -5,3 +5,10 @@
 ---
 
 Project to show Vue3/NuxtJS abilities by consuming very large CSV file, sorting, and displaying in a visually pleasing way.
+
+This project is a sorting and searchable table that handles a CSV file, that then can be downloaded in the order of displayed data.
+
+### Technology
+
+* NuxtJS - VueJS Framework that allows for simple development.
+* Papaparser - CSV importer to handle large CSV files.
