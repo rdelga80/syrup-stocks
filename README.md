@@ -1,20 +1,7 @@
-# syrup-stocks
+# Syrup Stocks
 
-## Build Setup
+[![Netlify Status](https://api.netlify.com/api/v1/badges/184ec289-fd9b-4040-8fc7-957053ce6c72/deploy-status)](https://app.netlify.com/sites/practical-curie-3b9122/deploys)
 
-```bash
-# install dependencies
-$ yarn install
+---
 
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+Project to show Vue3/NuxtJS abilities by consuming very large CSV file, sorting, and displaying in a visually pleasing way.
