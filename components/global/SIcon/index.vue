@@ -1,5 +1,5 @@
 <script lang="ts">
-import { computed, defineAsyncComponent, defineComponent, h } from '@nuxtjs/composition-api'
+import { defineAsyncComponent, defineComponent, h } from '@nuxtjs/composition-api'
 
 const iconComponent = (iconName: string) =>
   defineAsyncComponent(() => import(`./icons/${iconName}.vue`))
@@ -12,8 +12,8 @@ export default defineComponent({
       required: true
     }
   },
-  setup(props) {
+  setup (props) {
     return () => h(iconComponent(props.icon))
-  },
+  }
 })
 </script>

@@ -12,10 +12,7 @@ export default defineComponent({
       type: Array,
       required: true
     } as PropOptions<Array<Object>>
-  },
-  setup() {
-    
-  },
+  }
 })
 </script>
 

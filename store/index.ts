@@ -15,7 +15,6 @@ import { mapStockData } from '@/assets/js/mappers'
 
 import { Column } from '@/types/table'
 import { Sorting, StockData, StockDataResponse } from '@/types/data'
-import { convertObjectToCsv } from '~/assets/js/utilities'
 
 const RECORDS_PER_PAGE = 100
 
